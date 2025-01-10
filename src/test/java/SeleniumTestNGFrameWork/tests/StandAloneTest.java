@@ -33,6 +33,7 @@ public class StandAloneTest
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 		//Dynamically taking the list of all products
+		//Nothing to commit.
 		List<WebElement> products=driver.findElements(By.cssSelector(".mb-3"));
 		WebElement prod=products.stream().filter(product -> 
 		product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);
