@@ -45,14 +45,10 @@
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
-    <version>7.20.0</version>
+    <version>7.20.1</version>
 </dependency>
-<dependency>
-  <groupId>org.testng</groupId>
-  <artifactId>testng</artifactId>
-  <version>7.8.0</version> <!-- Use the latest compatible version -->
-  <scope>test</scope>
-</dependency>
+
+
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <dependency>
     <groupId>io.cucumber</groupId>
@@ -70,8 +66,10 @@
     <artifactId>extentreports</artifactId>
     <version>5.1.2</version>
 </dependency>
-  </dependencies> 
+  </dependencies>
+   
   <profiles>
+  
   <profile>
   <id>Regression</id> 
     <build>

@@ -14,7 +14,6 @@ import org.testng.annotations.Test;
 import AshviniPakhare.PageObject.CartPage;
 import AshviniPakhare.PageObject.CheckoutPage;
 import AshviniPakhare.PageObject.ConfirmationPage;
-import AshviniPakhare.PageObject.LandingPage;
 import AshviniPakhare.PageObject.OrderPage;
 import AshviniPakhare.PageObject.ProductCatalogue;
 import SeleniumTestNG.TestComponents.BaseTest;
